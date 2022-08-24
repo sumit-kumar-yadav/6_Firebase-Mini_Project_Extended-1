@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import firebase from "firebase/app";  // Searched "add firebase to js project"
+import * as firebase from 'firebase';
 import 'firebase/firestore';
 
 // Your web app's Firebase configuration
